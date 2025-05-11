@@ -18,7 +18,7 @@ class AutzorgClass {
   }
 
   get loginURL() {
-    return `https://autz.org/onboarding/${autzorgAppID}?callback_url=${location.href}`
+    return `https://autz.org/onboarding/${this.appID}?callback_url=${location.href}`
   }
 
   async check() {
